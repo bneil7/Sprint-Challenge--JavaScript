@@ -64,12 +64,12 @@ Test your knowledge of advanced array methods and callbacks.
 #### Task B: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [x] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
+* [X] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [X] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 #### Task D: Classes
 
