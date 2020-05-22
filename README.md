@@ -25,14 +25,37 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+// 
+    .forEach does not return a new array, and the return statement is optional.
+    .map returns a new array, and it is used for manipulating the data it passes back without altering the original array. 
+    They both need to iterate through every item in the array when they run.
+//
 2. Explain the difference between a callback and a higher order function.
-
+//
+    A callback is a function that is passed into another function as an argument.
+    A higher-order function recieves other functions as parameters.
+    (Callbacks are passed in // HOFs receive)
+//
 3. What is closure?
-
+//
+    Closure is when a function has referene to a private variable. 
+    Utilizing closure, an inner-function(nested) has access to variables from a higher level scope (outside of its function) even after said variable has been called.
+//
 4. Describe the four rules of the 'this' keyword.
-
+//
+    Principle 1: Window/Global Object Binding
+        // "this" refers to the console object when it is not preceeding a function or method.
+    Principle 2: Implicit Binding
+        // when "this" is used inside of a function, applied as a contextual pronoun that refers to said function.
+    Principle 3: New binding
+        // when "this" is used in the context of creating a new object with a constructor function.
+    Principle 4: Explicit binding
+        // .call .apply . bind are methods that are explicitly passed into functions with specific purposes that operate and invoke functions (except .bind) immediately when used. 
+//
 5. Why do we need super() in an extended class?
+//
+    The super() function tells the child class what to inherit from its parent class. 
+//
 
 ### Task 1 - Project Set up
 
@@ -86,6 +109,6 @@ There are a few stretch problems found throughout the files, don't work on them 
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your team lead as a Reviewer on the Pull-request
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [X] Add your team lead as a Reviewer on the Pull-request
 - [ ] TL then will count the HW as done by  merging the branch back into master.
