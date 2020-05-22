@@ -21,7 +21,7 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
-zooAnimals.forEach(bothNames => displayNames.push(`Name: ${bothNames.animal_name}, Scientific: ${bothNames.scientific_name}`));
+zooAnimals.forEach(bothNames => displayNames.push(`{Name: ${bothNames.animal_name}, Scientific: ${bothNames.scientific_name}}`));
 console.log(displayNames);
 
 /* Request 2: .map()
@@ -33,7 +33,7 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 const lowCaseAnimalNames = [];
 
 lowCaseAnimalNames.push(zooAnimals.map(lowArr => {
-  return `${lowArr.animal_name.toLocaleLowerCase()}`;
+  return `${lowArr.animal_name.toLowerCase()}`;
 }));
 
 console.log(lowCaseAnimalNames);
